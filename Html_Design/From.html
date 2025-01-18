@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .topsaperator{
+     height: 3px;
+  width: 100%;
+  background-color: rgba(198, 183, 183, 0.784);
+}
+    .top_navigator {
+      height:100px;
+      width: 100%;
+      background-color:rgb(255, 255, 255);
+      color: black;
+      font-size: 70px;
+      text-align: center;
+    } 
+    .main_menu{
+      display: flex;
+      margin: auto;
+    }
+    
+  .htmlsign{
+    color: white;
+    font-size: 22;
+    font: bold;
+    height: 40px%;
+    width: 80px; 
+     background-color: rgb(0, 255, 0);
+
+  }
+  .menu{
+    background-color: black; 
+    height: 40px;
+    width: 100%;
+
+  }
+  
+    .menubar  {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  display: flex;
+  justify-content:center ;
+  display: flex;
+}
+.menubar a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  font: bold;
+}
+.menubar li{
+  margin: 0px 28px;
+}
+
+.leftsidebar{
+  background-color: rgb(170, 171, 171);
+  width: 620px;
+  height: 500px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+.bodies{
+  display: flex;
+}
+.form div {
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 25px;
+  font-size: 20px;
+}
+
+    </style>
+
+</head>
+<body>
+<div class="main">
+
+  <div  class="topsaperator"></div>
+  <div class="top_navigator">Form</div>
+
+  <div class="main_menu">
+    <div class="htmlsign">HTML </div>
+
+    <div class="menu"> 
+  
+        <ul class="menubar">
+          <li> <a href="./html_Main_index.html">Home</a></li>
+          <li> <a href="./Basic.html">Basic</a></li>
+          <li> <a href="./Image.html">Imag</a></li>
+          <li> <a href="./Table.html">Table</a></li>
+          <li> <a href="./Links.html">Links</a></li>
+          <li> <a href="./Layout.html">Layout</a></li>
+          <li> <a href="./Div.html">Div</a></li>
+          <li> <a href="./List.html">List</a></li>
+     
+          <li> <a href="./Paragraph.html">Paragraph</a></li>
+          <li> <a href="./Menu.html">Menu</a></li>
+          <li> <a href="./Shadow.html">Shadow</a></li>
+          <li> <a href="./About.html">About</a></li>
+        </ul>
+    </div>
+
+
+  
+  </div>
+
+  <div class="bodies">  
+    <div class="leftsidebar">
+      <h2>Form</h2> 
+      <div>
+        &#60;<font color="red">label </font> for="FirstName">First Name&#62;  &#60;<font color="red">/label</font>&#62;
+          <br>
+        &#60;<font color="red">input </font> type="text" name="LasttName" id=" " placeholder="Last Name" size="30"&#62;  &#60;<font color="red">/input</font>&#62;
+         <br>
+         
+        &#60;<font color="red">input </font> type="number" name="LasttName" id=" " placeholder="Last Name" size="30"&#62;  &#60;<font color="red">/input</font>&#62;
+        <br>
+          &#60;<font color="red">input </font> type="password" name="LasttName" id=" " placeholder="Last Name" size="30"&#62;  &#60;<font color="red">/input</font>&#62;
+         <br>
+         
+        &#60;<font color="red">input </font> type="email" name="LasttName" id=" " placeholder="Last Name" size="30"&#62;  &#60;<font color="red">/input</font>&#62;
+        <br>
+        
+        &#60;<font color="red">input </font> type="date" name="LasttName" id=" " placeholder="Last Name" size="30"&#62;  &#60;<font color="red">/input</font>&#62;
+        <br>
+        
+        &#60;<font color="red">input </font> type="text" name="LasttName" id=" " placeholder="Last Name" size="30"&#62;  &#60;<font color="red">/input</font>&#62;
+
+         
+         
+          <!-- <ul>    
+          <li> <pre> <input></pre></li>
+          <li> <pre> <select></pre></li>
+          <li> <pre> <button></pre></li>
+          <li> <pre> <output></pre></li>
+          <li> <pre> <textarea></pre></li>
+          <li> <pre> <fieldset></pre></li>
+          <li> <pre> <option></pre></li>
+          <li> <pre> <legend></pre></li>
+          <li> <pre> <datalist></pre></li>
+          <li> <pre> <optgroup></pre></li>
+        </ul> -->
+
+      </div>
+      
+     </div>
+     <div> 
+       <form class="form" action="">
+        <div>
+          <label for="FirstName" class="FirstName">First Name &nbsp&nbsp&nbsp&nbsp&nbsp</label>
+          <input type="text" name="FirstName" id="FirstName" placeholder="First Name" size="30">
+        </div>
+
+        <div >
+         <label for="LastName">Last Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label> 
+       
+          <input type="text" name="LasttName" id="LasttName" placeholder="Last Name" size="30">
+        </div>
+        <div>
+          <label for="Email" class="Email">Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+          <input type="email" name="Email" id="Email" placeholder="Email address " size="30">
+        </div>
+
+        <div >
+         <label for="Password">Password &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label> 
+       
+          <input type="password" name="Password" id="Password" placeholder="Password " size="30">
+        </div>
+        <div>
+          <label for="PhoneNumber">PhoneNumber </label>
+          <input type="number" name="PhoneNumber" id="PhoneNumber" placeholder="Phone Number" size="30">
+        </div>
+
+        <div>
+          <label for="DateOfBirth">Date Of Birth</label>
+          <input type="date" name="DateOfBirth" id="DateOfBirth" placeholder="Date" size="30">
+        </div>
+       </form>
+   
+     </div>
+
+
+  </div>
+</div>    
+</body>
+</html>
